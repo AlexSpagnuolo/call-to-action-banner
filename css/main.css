@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -26,6 +28,11 @@ body {
   bottom: 1em;
   left: 50%;
   transform: translateX(-50%)
+}
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
 }
 
 .btn-big {
