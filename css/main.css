@@ -69,6 +69,7 @@ p {
 .btn-big {
   text-decoration: none;
   color: #fff;
+  float: right;
 }
 
 .btn:hover {
