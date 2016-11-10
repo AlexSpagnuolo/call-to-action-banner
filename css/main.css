@@ -6,6 +6,28 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 500px;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
 .btn-big {
   padding: .4em .75em .3em;
   text-decoration: none;
