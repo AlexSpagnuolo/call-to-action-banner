@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-  font-size: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -24,18 +23,36 @@ body {
 }
 
 .banner-content {
+  top: 10%;
   position: absolute;
   bottom: 1em;
   left: 50%;
   transform: translateX(-50%);
+  width: 100%;
+  max-width: 50em;
 }
 
 .circle {
+  float: left;
+  margin: 1rem;
+  width: 30%;
+  margin-right: 3rem;
+  margin-bottom: 10rem;
 }
 
 h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 3rem;
+  margin: 0;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
 }
 
 .btn-big {
